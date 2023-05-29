@@ -1,0 +1,97 @@
+// base12
+html {
+  font-size: 62.5%;
+  color: #313131;
+  overflow-y: scroll;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+}
+
+// base22
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  overflow: hidden;
+}
+
+// base35
+body,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+// base40
+body {
+  font-family: "Roboto", YuGothic, "游ゴシック", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    sans-serif;
+}
+
+// base47
+a,
+a:link,
+a:active {
+  text-decoration: underline;
+  color: #1f398c;
+  overflow: hidden;
+  outline: none;
+  transition: all 0.3s ease 0s;
+}
+
+// base82
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+// base132
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  line-height: 140%;
+}
+
+// base139
+li {
+  list-style: none;
+}
+
+// base157
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+// base481
+* {
+  zoom: 1;
+}
