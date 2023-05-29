@@ -50,6 +50,11 @@ body {
     sans-serif;
 }
 
+// base43
+.marugo {
+  font-family: "M PLUS Rounded 1c";
+}
+
 // base47
 a,
 a:link,
@@ -68,6 +73,31 @@ ol {
   padding: 0;
 }
 
+// base89
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+// base124
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// base129
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+}
+
 // base132
 h1,
 h2,
@@ -79,9 +109,22 @@ h6 {
   line-height: 140%;
 }
 
+// base136
+img,
+abbr,
+acronym,
+fieldset {
+  border: 0;
+}
+
 // base139
 li {
   list-style: none;
+}
+
+// base142
+.center {
+  text-align: center !important;
 }
 
 // base157
@@ -89,6 +132,48 @@ li {
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+// base179
+.mb30 {
+  margin-bottom: 30px;
+}
+
+// base183
+.mb50 {
+  margin-bottom: 50px;
+}
+
+// base185
+.mb60 {
+  margin-bottom: 60px;
+}
+
+// base394
+.txt30 {
+  font-size: 30px;
+  font-size: 3rem;
+}
+
+// base478
+.clearfix {
+  &:after {
+    // base474
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  display: block;
 }
 
 // base481

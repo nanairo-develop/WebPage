@@ -1,8 +1,16 @@
+// common15
 .wrapper {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  img {
+    // common20
+    max-width: 100%;
+    height: auto;
+  }
 }
+
+// common25
 @media screen and (max-width: 1000px) {
   .wrapper {
     width: 92%;
@@ -22,6 +30,12 @@
 
 .ai {
   align-items: center;
+}
+
+// hanyo5
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 // hanyo18
@@ -92,5 +106,131 @@ header {
       padding: 0 0 15px 0;
       text-align: center;
     }
+  }
+}
+
+// hanyo121
+.title_big02 {
+  text-align: center;
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  span {
+    // hanyo128
+    padding: 5px 10px 10px;
+    display: inline-block;
+  }
+}
+
+// hanyo136
+.tb02-02 span {
+  border-bottom: 2px dashed #ffa200;
+  color: #ffa200;
+}
+
+// hanyo158
+.tb03-02 {
+  color: #ffa200;
+}
+
+// hanyo164
+@media screen and (max-width: 1000px) {
+  .title_big01,
+  .title_big02,
+  .title_big03 {
+    font-size: 18px;
+  }
+}
+
+// hanyo168
+.title_middle01 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+// hanyo543
+.table02 {
+  width: 100%;
+  th {
+    // hanyo552
+    width: 30%;
+    background-color: #dceef4;
+  }
+  td {
+    // hanyo559
+    background-color: #fff;
+  }
+}
+
+// hanyo546
+.table02 th,
+.table02 td {
+  padding: 8px 8px 3px;
+  vertical-align: middle;
+  border: 1px solid #dfdfdf;
+  font-weight: normal;
+}
+
+// hanyo751
+.title_txt {
+  position: relative;
+  border-bottom: 4px solid #ccc;
+  margin-bottom: 12px;
+  &::after {
+    // hanyo756
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    z-index: 2;
+    content: "";
+    width: 20%;
+    height: 4px;
+    background-color: #00417e;
+  }
+}
+
+.tt {
+  &_left {
+    // hanyo766
+    width: 20%;
+    text-align: center;
+  }
+  &_right {
+    // hanyo770
+    width: 78%;
+  }
+}
+
+// hanyo1266
+.top_news_right {
+  width: 79%;
+}
+
+// hanyo1289
+@media screen and (max-width: 1000px) {
+  .top_news_right {
+    width: 100%;
+  }
+}
+
+// hanyo1300
+.program_left {
+  width: 48%;
+}
+
+// hanyo1323
+.program_left {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.md_center {
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .md_center {
+    text-align: left;
   }
 }

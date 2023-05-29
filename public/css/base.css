@@ -45,6 +45,10 @@ body {
   font-family: "Roboto", YuGothic, "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
 
+.marugo {
+  font-family: "M PLUS Rounded 1c";
+}
+
 a,
 a:link,
 a:active {
@@ -61,6 +65,28 @@ ol {
   padding: 0;
 }
 
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
@@ -71,14 +97,61 @@ h6 {
   line-height: 140%;
 }
 
+img,
+abbr,
+acronym,
+fieldset {
+  border: 0;
+}
+
 li {
   list-style: none;
+}
+
+.center {
+  text-align: center !important;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mb60 {
+  margin-bottom: 60px;
+}
+
+.txt30 {
+  font-size: 30px;
+  font-size: 3rem;
+}
+
+.clearfix {
+  display: block;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 * {

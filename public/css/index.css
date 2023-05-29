@@ -1,0 +1,38 @@
+.top_news_left {
+  width: 15%;
+}
+
+.top_news_left {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.ts_en {
+  color: #26bad0;
+}
+
+.top_image {
+  width: 1000px;
+}
+
+.description {
+  font-size: 18px !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .br_sp {
+    display: none;
+  }
+}
+.guide {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+/*# sourceMappingURL=index.css.map */
