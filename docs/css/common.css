@@ -188,6 +188,12 @@ header ul li a:visited {
   margin-bottom: 25px;
 }
 
+.program_right {
+  width: 48%;
+  text-align: center;
+  position: relative;
+}
+
 .md_center {
   text-align: center;
 }
