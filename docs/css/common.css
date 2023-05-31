@@ -35,7 +35,7 @@
   }
 }
 header {
-  background: url() bottom center no-repeat #36a7cc;
+  background: url() bottom center no-repeat #ffa200;
   font-size: 2.2rem;
   color: #fff;
   margin-bottom: 40px;
@@ -76,7 +76,7 @@ header ul li a::before {
   line-height: 135%;
 }
 header ul li a:visited {
-  color: #1f398c;
+  color: #00417e;
 }
 
 @media screen and (max-width: 1000px) {
