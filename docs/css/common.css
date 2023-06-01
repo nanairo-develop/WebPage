@@ -206,6 +206,11 @@ header ul li a:visited {
   height: 4px;
   background-color: #00417e;
 }
+@media screen and (max-width: 1000px) {
+  .title_txt::after {
+    width: 40%;
+  }
+}
 
 .tt_left {
   width: 20%;
@@ -215,6 +220,14 @@ header ul li a:visited {
   width: 78%;
 }
 
+@media screen and (max-width: 1000px) {
+  .tt_left {
+    width: 40%;
+  }
+  .tt_right {
+    width: 58%;
+  }
+}
 .ggmap {
   position: relative;
   padding-bottom: 56.25%;

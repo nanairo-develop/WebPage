@@ -38,12 +38,12 @@
 }
 
 .dash {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .time {
-  width: 4rem;
+  width: 4.5rem;
   display: inline-block;
   text-align: right;
 }
