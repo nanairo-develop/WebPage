@@ -26,9 +26,15 @@
   font-size: 18px !important;
 }
 
-@media screen and (max-width: 1000px) {
-  .br_sp {
+.br_sp {
+  display: none;
+}
+@media screen and (max-width: 1280px) {
+  .br_pc {
     display: none;
+  }
+  .br_sp {
+    display: block;
   }
 }
 

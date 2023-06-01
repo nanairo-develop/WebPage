@@ -11,7 +11,7 @@
 }
 
 // common25
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .wrapper {
     width: 92%;
     margin-left: auto;
@@ -33,7 +33,7 @@
 }
 
 // hanyo5
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   img {
     max-width: 100%;
     height: auto;
@@ -93,7 +93,7 @@ header {
 }
 
 // hanyo65
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   header {
     font-size: 1.8rem;
     margin-bottom: 30px;
@@ -137,7 +137,7 @@ header {
 }
 
 // hanyo164
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .title_big01,
   .title_big02,
   .title_big03 {
@@ -197,7 +197,7 @@ header {
 }
 
 // hanyo318
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .hor03 div {
     width: 100%;
     text-align: center;
@@ -244,7 +244,7 @@ header {
     height: 4px;
     background-color: #00417e;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1280px) {
     &::after {
       width: 40%;
     }
@@ -263,7 +263,7 @@ header {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .tt {
     &_left {
       width: 40%;
@@ -299,7 +299,7 @@ header {
 }
 
 // hanyo1289
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .top_news_right {
     width: 100%;
   }
@@ -330,7 +330,7 @@ header {
 }
 
 // hanyo1327
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .program_right {
     width: 100%;
   }
@@ -339,7 +339,7 @@ header {
 .md_center {
   text-align: center;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   .md_center {
     text-align: left;
   }
