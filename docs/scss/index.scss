@@ -56,3 +56,20 @@
   display: inline-block;
   text-align: right;
 }
+
+ol {
+  margin-left: 3.5rem;
+  li {
+    list-style-type: none;
+    counter-increment: cnt;
+    display: inline-block;
+    &:before {
+      content: "(" counter(cnt) ")";
+      margin-left: -3rem;
+      width: 3rem;
+    }
+    & + li {
+      margin-top: 2rem;
+    }
+  }
+}

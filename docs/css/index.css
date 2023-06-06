@@ -54,4 +54,21 @@
   display: inline-block;
   text-align: right;
 }
+
+ol {
+  margin-left: 3.5rem;
+}
+ol li {
+  list-style-type: none;
+  counter-increment: cnt;
+  display: inline-block;
+}
+ol li:before {
+  content: "(" counter(cnt) ")";
+  margin-left: -3rem;
+  width: 3rem;
+}
+ol li + li {
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=index.css.map */

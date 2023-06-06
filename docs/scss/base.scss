@@ -133,21 +133,11 @@ li {
   box-sizing: border-box;
 }
 
-.mb1 {
-  margin-bottom: 1rem;
-}
-
-.mb2 {
-  margin-bottom: 2rem;
-}
-
-.mb4 {
-  margin-bottom: 4rem;
-}
-
-// base179
-.mb30 {
-  margin-bottom: 30px;
+// mb1->mb6
+@for $i from 1 through 6 {
+  .mb#{$i} {
+    margin-bottom: 1rem * $i;
+  }
 }
 
 // base181
