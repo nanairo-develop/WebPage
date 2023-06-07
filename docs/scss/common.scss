@@ -45,10 +45,10 @@ header {
   background: url() bottom center no-repeat #ffa200;
   font-size: 2.2rem;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   h2 {
     // honyo25
-    padding: 45px 0 40px;
+    padding: 4.5rem 0 4rem;
     width: 40%;
   }
   ul {
@@ -59,22 +59,22 @@ header {
     li {
       // hanyo32
       display: inline-block;
-      margin-left: 10px;
+      margin-left: 1rem;
       margin-bottom: 0;
       padding: 0;
       a {
         // hanyo40
         color: #fff;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 1.4rem;
         position: relative;
-        padding-left: 16px;
+        padding-left: 1.6rem;
         &::before {
           // hanyo50
           content: "";
           background-image: url(../img/circle-right-regular.svg);
-          width: 14px;
-          height: 14px;
+          width: 1.4rem;
+          height: 1.4rem;
           background-repeat: no-repeat;
           display: inline-block;
           position: absolute;
@@ -96,16 +96,16 @@ header {
 @media screen and (max-width: 1280px) {
   header {
     font-size: 1.8rem;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     text-align: center;
     h2 {
       // hanyo74
-      padding: 35px 0 15px;
+      padding: 3.5rem 0 1.5rem;
     }
     ul {
       // hanyo77
       width: 100%;
-      padding: 0 0 15px 0;
+      padding: 0 0 1.5rem 0;
       text-align: center;
     }
   }
@@ -114,13 +114,12 @@ header {
 // hanyo121
 .title_big02 {
   text-align: center;
-  font-size: 22px;
   font-size: 2.2rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   span {
     // hanyo128
-    padding: 5px 10px 10px;
+    padding: 0.5rem 1rem 1rem;
     display: inline-block;
   }
 }
@@ -141,15 +140,14 @@ header {
   .title_big01,
   .title_big02,
   .title_big03 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 
 // hanyo168
 .title_middle01 {
-  font-size: 18px;
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 // hanyo262
@@ -175,7 +173,7 @@ header {
     // hanyo290
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -201,7 +199,7 @@ header {
   .hor03 div {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -232,7 +230,7 @@ header {
 .title_txt {
   position: relative;
   border-bottom: 4px solid #ccc;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
   &::after {
     // hanyo756
     position: absolute;
@@ -278,7 +276,7 @@ header {
 .ggmap {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px;
+  padding-top: 3rem;
   height: 0;
   overflow: hidden;
   iframe,
@@ -313,7 +311,7 @@ header {
 // hanyo1323
 .program_left {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
 // hanyo1303

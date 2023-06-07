@@ -38,10 +38,10 @@ header {
   background: url() bottom center no-repeat #ffa200;
   font-size: 2.2rem;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 header h2 {
-  padding: 45px 0 40px;
+  padding: 4.5rem 0 4rem;
   width: 40%;
 }
 header ul {
@@ -51,22 +51,22 @@ header ul {
 }
 header ul li {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 1rem;
   margin-bottom: 0;
   padding: 0;
 }
 header ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   position: relative;
-  padding-left: 16px;
+  padding-left: 1.6rem;
 }
 header ul li a::before {
   content: "";
   background-image: url(../img/circle-right-regular.svg);
-  width: 14px;
-  height: 14px;
+  width: 1.4rem;
+  height: 1.4rem;
   background-repeat: no-repeat;
   display: inline-block;
   position: absolute;
@@ -82,27 +82,26 @@ header ul li a:visited {
 @media screen and (max-width: 1280px) {
   header {
     font-size: 1.8rem;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     text-align: center;
   }
   header h2 {
-    padding: 35px 0 15px;
+    padding: 3.5rem 0 1.5rem;
   }
   header ul {
     width: 100%;
-    padding: 0 0 15px 0;
+    padding: 0 0 1.5rem 0;
     text-align: center;
   }
 }
 .title_big02 {
   text-align: center;
-  font-size: 22px;
   font-size: 2.2rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .title_big02 span {
-  padding: 5px 10px 10px;
+  padding: 0.5rem 1rem 1rem;
   display: inline-block;
 }
 
@@ -119,13 +118,12 @@ header ul li a:visited {
   .title_big01,
 .title_big02,
 .title_big03 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 .title_middle01 {
-  font-size: 18px;
   font-size: 1.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .layout_horizon {
@@ -148,7 +146,7 @@ header ul li a:visited {
 .layout_horizon img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .hor03 {
@@ -169,7 +167,7 @@ header ul li a:visited {
   .hor03 div {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 }
 .table02 {
@@ -194,7 +192,7 @@ header ul li a:visited {
 .title_txt {
   position: relative;
   border-bottom: 4px solid #ccc;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 .title_txt::after {
   position: absolute;
@@ -231,7 +229,7 @@ header ul li a:visited {
 .ggmap {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px;
+  padding-top: 3rem;
   height: 0;
   overflow: hidden;
 }
@@ -260,7 +258,7 @@ header ul li a:visited {
 
 .program_left {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
 .program_right {
