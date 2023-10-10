@@ -8,6 +8,8 @@ html {
   -ms-text-size-adjust: 100%;
   letter-spacing: 0.1em;
   line-height: 1.8;
+  /* プロポーショナルメトリクスを有効にする指定 */
+  font-feature-settings: "palt" 1;
 }
 
 body {
